@@ -8,7 +8,6 @@ import 'package:flutter_background/flutter_background.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
 import 'package:flutter_webrtc_example/publishing/home_screen.dart';
-import 'package:logger/logger.dart';
 
 import 'publishing/publisher_settings_widget.dart';
 import 'publishing/publisher_widget.dart';
@@ -19,7 +18,6 @@ import 'src/route_item.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  Logger.level = Level.info;
   await dotenv.load(fileName: '.env.sample');
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,

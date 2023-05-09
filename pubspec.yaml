@@ -11,22 +11,17 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_background: ^1.0.0
+  flutter_dotenv: ^5.0.2
   flutter_foreground_service: ^0.3.0
-  millicast_flutter_sdk:
-    path: packages/multicast
+  flutter_settings_ui: ^2.0.1
   flutter_webrtc: ^0.9.19
   http: ^0.13.5
-  web_socket_channel: ^2.3.0
-  flutter_dotenv: ^5.0.2
   logger: ^1.1.0
-  stop_watch_timer: ^2.0.0
-  share_plus: ^6.3.0
-  flutter_settings_ui: ^2.0.1
+  millicast_flutter_sdk: ^1.1.0
   permission_handler: ^10.2.0
-
-
-
-
+  share_plus: ^6.3.0
+  stop_watch_timer: ^2.0.0
+  web_socket_channel: ^2.3.0
 
 dev_dependencies:
   flutter_test:

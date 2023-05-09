@@ -227,9 +227,10 @@ packages:
   millicast_flutter_sdk:
     dependency: "direct main"
     description:
-      path: "packages/multicast"
-      relative: true
-    source: path
+      name: millicast_flutter_sdk
+      sha256: "0703908e71334b306b063505c71bfe4afa18e7b6ab874701f62e3050e34cd0c3"
+      url: "https://pub.dev"
+    source: hosted
     version: "1.1.0"
   mime:
     dependency: transitive
